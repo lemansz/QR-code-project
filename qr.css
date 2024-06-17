@@ -1,0 +1,49 @@
+body{
+    background-color:hsl(220, 15%, 90%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    overflow: scroll;
+}
+.parent-card{
+    width: 600px;
+    height: fit-content; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 12px;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    
+}
+.qr-card-image{
+    background: url(image-qr-code.png);
+    height: 575px;
+    width: 575px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 0%;
+}
+.text-area{
+    width: 400px;
+    text-align: center;
+    margin: 0%;
+}
+.CTO{
+    margin: 0%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.instruction{
+    margin: 0%;
+    color: grey;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
