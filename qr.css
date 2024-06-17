@@ -49,9 +49,6 @@ body{
 }
 
 @media screen and (max-width: 640px) {
-    body{
-        /* overflow: hidden; */
-    }
     .parent-card{
         width: 400px;
     }
