@@ -57,12 +57,17 @@ body{
 @media screen and (max-width: 40em) {
     .parent-card{
         max-width: 25em;
+        
     }
     .qr-card-image{
         background: url(mobile-image-qr-code.png);
         background-repeat: no-repeat;
         width: 23.438em;
         height: 23.43em;
+        
     }
-    
+    body{
+        padding-left: 2.3em;
+        
+    }
 }
