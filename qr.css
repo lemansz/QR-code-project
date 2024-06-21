@@ -1,36 +1,40 @@
+*{
+    box-sizing: border-box;
+}
 body{
+    
     background-color:hsl(220, 15%, 90%);
-    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
+    
 }
 .parent-card{
-    width: 450px;
+    width: 28.125em;
     height: fit-content; 
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     background-color: white;
-    border-radius: 12px;
+    border-radius: 0.75em;
     border: none;
-    padding-top: 10px;
-    padding-bottom: 20px;
+    padding-top: 0.6em;
+    padding-bottom: 1em;
+    
     
 }
 .qr-card-image{
     background: url(edited-computer-qr.png);
-    height: 446px;
-    width: 434px;
+    height: 27.875em;
+    width: 96%;
     border: none;
     border-radius: 8px;
     margin-top: 0%;
     background-repeat: no-repeat;
 }
 .text-area{
-    width: 400px;
+    width: 25rem;
     text-align: center;
     margin: 0%;
 }
@@ -39,6 +43,7 @@ body{
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
+    width: 25rem
 }
 .instruction{
     margin: 0%;
@@ -46,17 +51,18 @@ body{
     font-family: "Poppins", sans-serif;
     font-weight: 200;
     font-style: normal;
+    
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 40em) {
     .parent-card{
-        width: 400px;
+        max-width: 25em;
     }
     .qr-card-image{
         background: url(mobile-image-qr-code.png);
         background-repeat: no-repeat;
-        width: 375px;
-        height: 375px;
+        width: 23.438em;
+        height: 23.43em;
     }
- 
+    
 }
